@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" standalone = "yes" ?>
+<users>
+    <user>
+        <id>1</id>
+        <login> irisha.ruda85@gmail.com </login>
+        <password> ruda1234 </password>
+    </user>
+    <user>
+        <id>2</id>
+        <login> iryna123first@gmail.com </login>
+        <password> A1aB2bC3c </password>
+    </user>
+    <user>
+        <id>3</id>
+        <login> lig2a4@gmail.com </login>
+        <password> LIG2a4zza </password>
+    </user>
+    <user>
+        <id>3</id>
+        <login> lig2a4@gmail.com </login>
+        <password> LIG2a4zza </password>
+    </user>
+</users>

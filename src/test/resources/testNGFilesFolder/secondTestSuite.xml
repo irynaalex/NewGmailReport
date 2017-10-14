@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Third suite" thread-count="8" parallel="methods" >
+    <test name = "aFewTestsFromAClass" >
+        <classes>
+            <class name="com.epam.lab.LoginTest" >
+      <methods>
+         <include name = "someFailedTest" />
+      </methods>
+  </class>
+            <class name="com.epam.lab.LoginTest" >
+                <methods>
+                    <include name = "verifyLogin" />
+                </methods>
+            </class>
+            <class name="com.epam.lab.UITest" >
+                <methods>
+                    <include name = "verifyUndo" />
+                </methods>
+            </class>
+   </classes>
+</test>
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+    <!--<listeners>-->
+        <!--<listener class-name="com.epam.lab.CustomTestListener" />-->
+    <!--</listeners>-->
+</suite>
